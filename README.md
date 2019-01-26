@@ -1,4 +1,4 @@
-# Acast Test Case
+# RSS API Reader
 
 Created a small API that uses Express.js in Node.js to expose an http endpoint that takes an rss url, parses it and returns a list of episodes from that rss feed.
 
@@ -56,13 +56,6 @@ The project has only 2 tests. Please run the following command:
 npm test
 ```
 
-### Break down into end to end tests
-
-You can manually test the API. To achieve this, please import the Insomnia json file from the directory.
-```
-Give an example
-```
-
 ## Hwo can this project be improved?
 
 1. Pagination to handle the big rss feed
@@ -70,7 +63,6 @@ Give an example
 3. Versioning of the API
 4. Improvement on the directory structure (this is something i need to learn :) )
 5. Define env such as dev, test, prod etc.
-
 
 
 ## Built With
