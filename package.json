@@ -1,0 +1,25 @@
+{
+  "name": "acast",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --timeout 50000"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "rss-parser": "^3.6.2",
+    "ssri": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,0 +1,98 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-01-26T15:07:43.071Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
+	"resources": [
+		{
+			"_id": "wrk_4e854b8eb9fc4edcb446fbdb9eb5e6b7",
+			"created": 1519652328110,
+			"description": "",
+			"modified": 1548491803114,
+			"name": "Acast API",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_057e99cda60f47cbb040143a6d2d4773",
+			"color": null,
+			"created": 1519652328151,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1537362380924,
+			"modified": 1519652328151,
+			"name": "New Environment",
+			"parentId": "wrk_4e854b8eb9fc4edcb446fbdb9eb5e6b7",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_e10f37209a0e48d2991eb2bc843051ed",
+			"cookies": [],
+			"created": 1519652328228,
+			"modified": 1519652328228,
+			"name": "Default Jar",
+			"parentId": "wrk_4e854b8eb9fc4edcb446fbdb9eb5e6b7",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_7579db46d1bf436d9ecf9ae2f523b8d3",
+			"authentication": {},
+			"body": {},
+			"created": 1548493281445,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1548493281445,
+			"method": "GET",
+			"modified": 1548514394417,
+			"name": "Rss Feed - Slower Checksum",
+			"parameters": [],
+			"parentId": "wrk_4e854b8eb9fc4edcb446fbdb9eb5e6b7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/feeds",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9a3d9a839aad47b9b80443b0549eb124",
+			"authentication": {},
+			"body": {},
+			"created": 1548503207646,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1548503207646,
+			"method": "GET",
+			"modified": 1548514381913,
+			"name": "Rss Feed - Faster Checksum",
+			"parameters": [],
+			"parentId": "wrk_4e854b8eb9fc4edcb446fbdb9eb5e6b7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/fast_feed",
+			"_type": "request"
+		},
+		{
+			"_id": "env_7e6cc82278d64fec83018ba23d662d3f",
+			"color": "#7d69cb",
+			"created": 1548492037445,
+			"data": {
+				"base_url": "localhost:3000"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1548492037445,
+			"modified": 1548492067834,
+			"name": "LocalHost",
+			"parentId": "env_057e99cda60f47cbb040143a6d2d4773",
+			"_type": "environment"
+		}
+	]
+}
